@@ -1,12 +1,15 @@
+import AccordiansCom from "./Component/Accordins/AccordiansCom"
+import StarRating from "./Component/StarRating/StarRating"
 
-import AccordiansCom from "./Component/AccordiansCom"
+
 
 
 
 const App = ()=>{
   return (
     <>
-   <AccordiansCom/>
+   {/* <AccordiansCom/> */}
+   <StarRating stars ={10}/>
     </>
   )
 }
